@@ -4,7 +4,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-model= pickle.load(open("C:\\Users\\Prathima\\Desktop\\data science and ML\\firstd\\model.pkl",'rb'))
+model= pickle.load(open("model.pkl",'rb'))
 def predict(text):
     prediction = model.predict(text)
     return prediction
