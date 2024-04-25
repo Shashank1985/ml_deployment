@@ -23,5 +23,4 @@ x1 = [x]
 
 if st.button('Predict disease: '):
     output = predict(x1)
-    output = list_to_string(output)
-    st.success("The predicted disease is: " + output)
+    st.success("The predicted disease is: " + output[0])
