@@ -18,7 +18,7 @@ st.header("Enter your symptoms")
 st.write("NLP models work best when you are as specific as possible with your input.")
 st.write("**Please note that AI models might not always give 100% accurate results and it is always better to consult with the doctor**")
 st.write("This model helps you gain a better understanding of what disease you might have")
-x = st.text_input("<span style = "color:blue">enter symptoms</span>",unsafe_allow_html = True)
+x = st.text_input("enter symptoms:")
 x1 = [x]
 
 if st.button('Predict disease: '):
